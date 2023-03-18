@@ -1,0 +1,180 @@
+
+	Mohd Nasir: KPMG
+
+	# 6+ years exp. training & production/project env ml modeling and text mining:
+		# Banking domain....
+		# financial data....
+
+	# Various tools: 
+		# Client management /Coding/Scrum Master
+		# Python, R, Sql, 
+		# Hadoop, Cloudera, Ambari, Azure, AWS, Databricks...
+		# 
+
+
+		# Important and Required for coming topics....
+
+	# Machine Learning and Artificial Intelligence.....
+
+
+	# Models to take care/simplified our requirements....
+
+	# Example: 
+		# OpenAI: very very simplified class of models: which can actually do text mining
+
+		# Data: 
+
+			# Input data ---- >>>>> Output data
+
+			# salary of emp: exp of emp: 
+
+			# 20 people: exp: 20 salary
+
+			# equation: 
+			# Input data (exp and salary of 20 emp) ---- equation >>>>> Output data
+			# 10 yrs..... predict what will be salary for this emp.. output result
+
+			# model: followers on instagram salary/pay
+
+			# computing: processing requirement: 
+							# ram/hard disk..... forecast.... 
+
+			# Machine learning: we built equations/models automate these models based on training
+
+			# available for free: 
+				# Linear regression: model/equation .... 19th centuary..
+
+				# train this equation/model on our data: (own) (problem statement)
+
+				# test: if this is working fine???
+				# use this for future reference.....
+
+				# Big Mart (superstore) .... predict sales tomorrow: 
+				# Product quality:  product quality 
+				# Home value prediction
+				# Recommend a movie (NETFLIX)
+				# tRAFFIC FORECASTING
+				# predict air pollution pmi
+				# flipkart/amazon ...... suggest you: which product you can buy if you are already having one product in cart.... similar or associated products...
+
+				# also bought .... headphone,, earphone, cover, extended warranty...
+				# song recommendation
+				# spam classifier (separate..... different quality/text based on some inputs)
+				# loan eligibility prediction.... cibil score generation based on machine learning model
+					
+
+				# fake news classification with the help of Machine Learning ...
+				# assocations based models: 
+				# how much electricity is required on daily basis for delhi urban area... Machine Learning
+
+				# Basics of Python: 
+						# what are different data types....
+						# how to load a data into python/anaconda based jupyter notebook....
+
+				# predict ticket amount/rent based on availability of drivers/customer timing/customer pattern to pay
+
+
+# Machine Learning equations: 
+
+	# Python env.... 
+
+	# types of machine learning models: 
+			# Supervised ML: 
+				# 4 models in sml
+			$ Unsupervised ML
+				# 4 models in Usml
+				
+	# inour 8 sessions...
+	# Jupyter notebook....
+
+	# Cloud platform: AWS/Microsoft Azure/Databricks
+
+	# Github: account: Qureshi1234
+
+
+# Supervised Machine Learning models:
+
+Model no. 1: 
+
+# Simple Linear Regression: 
+			
+			# One Independent (one input column)
+			# One Dependent   (one output column
+	
+			# building an equation: 
+					# y = dependent col
+					# x = independt col
+
+					# equation of the model: 
+			
+					y = b0 + b1*x
+
+					# in our example: 
+
+					# y = salary/ctc
+					# x = years_exp
+
+					# 13 years of exp: x ............... y ?
+
+					# Y = b0 + b1 * 13
+
+					# b0: intercept
+					# b1: slope
+
+
+					# 5.3 YEARS EXP : FIND OUT SALARY OF THAT EMPLOYEE?
+
+
+
+
+
+
+
+
+
+
+	# Reinforcement Learning: OPENAI: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

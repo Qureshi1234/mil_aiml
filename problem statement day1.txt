@@ -1,0 +1,44 @@
+John, 
+
+HR Manager: 
+
+Daily basis going through 100's of resumes to analyse to calculate
+the joining CTC/Salary for a new Hire.
+
+# John completed MIT AIML Course: 
+
+# He can use models to forecast based on past data to create data driven
+# process for setting of CTC/Salary for new roles!....
+
+# Use a perfect/good models to find data driven salary prediction solution.
+
+# 13 years of exp: what salary you will offer to that New Hire?
+
+# Understand the data
+# Transform data (fulfilling the model input data requirement)
+# find an appropriate model to predict the CTC.
+# Evaluate the result of his problem statement.
+
+
+# equation of the model: 
+			
+					y = b0 + b1*x
+
+					# in our example: 
+
+					# y = salary/ctc
+					# x = years_exp
+
+					# 13 years of exp: x ............... y ?
+
+					# Y = b0 + b1 * 13
+
+					# b0: intercept
+					# b1: slope
+
+
+
+
+
+
+
