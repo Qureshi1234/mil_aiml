@@ -1,0 +1,69 @@
+# Multiple linear regression:
+
+
+	# Regulators are finding it difficult to distinguish between which car can 
+	# create more pollution and which will create less pollution over the years.
+
+
+	# Want to apply Machine Learning based modeling to select an approach to find 
+	# which car can cause more pollution and which can cause less pollution and 
+   # how much?
+
+
+	# contributors to pollutions level in a car: 
+			# they found that regression analysis can help in quantifying the data: 
+
+
+	# Simple Linear regression: 
+
+		# can help if we have one independent col: (x) and one dependent col: (y)
+
+		# not just one contributor(x) they have 2 x columns information: 
+
+		# slr: b0+b1*x = y
+
+
+		# Multiple Linear Regression: 
+
+		# any number of independent columns: x1,x2,x3,,,......
+		# only one dependent column: y
+
+		b0 + b1*x1 + b2*x2 = y   : independent columns: x1, x2
+											: dependent column: y
+
+
+		# independent colu: volume (x1) and weight (x2) 
+		# dependent column: CO2 (Y)
+
+
+		# ONLY FOCUS IS TO FIND OUR What will be the values of b0, b1, b2 in this example: 
+
+		# IF One car is having Volume of 2500 and Weight of 3500, what will be the level of CO2 THAT CAR WILL
+		# generate?
+
+
+		# ['mpg', 'cylinders', 'displacement', 'horsepower', 'weight','acceleration', 'model_year', 'origin', 'name']
+
+
+		# y = mpg column
+		# x1: displacement
+		# x2: horsepower
+		# x3: weight
+		# x4: acceleration
+
+		# build an equation: y = b0 + b1*x1 + b2*x2 + b3*x3 + b4*x4
+
+		# if x1: 400, x2: 200, x3: 4000, x4: 13: what will be the value of Y?
+
+
+
+
+
+
+
+
+
+
+
+
+
