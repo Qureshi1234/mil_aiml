@@ -1,0 +1,172 @@
+	# finance stock market: 
+
+	# you are a stock analyst: 
+
+		# you want to build a correlation strategy for banking stock:
+
+		# you got to know that some bank stocks behave in the same way:		   
+
+		# ICICI and SBI bank: are significantly correlated or not?
+
+		# with correlation: item 1 price will increase and item 2 price
+			# will also increase: then both items are positively correlated.
+
+		# argument side you can say something but quantification is a tedious task: 
+
+		# very very simplied method: simple linear regression: basics....
+
+		
+		# if sbi stock will crease by 2%, how much will icici stock should increase?
+
+
+		# data on sbi stock and icici stock:
+			# yahoo finance: daily price change series: 
+
+			# stock market remains open for mon-fri.... mon to friday daily stock prices
+			# one year: 25 march 2022 to 24th mar 2023
+
+		# csv file: 
+			
+			# col1,col2,col3
+			  abc, aaa, bbb
+
+
+		# csv file: is a one sheet file
+		# excel file: multiple sheet: 
+
+
+
+# indepth: 
+
+# supervised ml models:
+	# 4 models 
+
+	# linear regression approach: (slr, mlr)
+
+		# predict y: y is an item/product/price/tempreature/inflation rate/emp rate/gdp/
+					# iq/income/gold price/
+
+		# some statisticians came up: 
+					# argued that: can we also predict categorical y items: 
+	
+
+					# whether one horse will win the game or not?  (win, loss)
+					# whether today rain will happen or not?		(rain, no rain)
+					# whether india will win cricket match or not  (win, loss, draw)
+	
+					# if you have some body symbtomps: 
+						# basaed on those symptoms, which of the following deasease you may have: 
+								# (fever, cold, cancer)
+
+		# how you will assign predicting probability of these categories??
+		# win: 1, loss 0: 
+
+				# linear regression model: -inf, +inf
+
+		
+
+				# based on some check ups: good or bad
+				# high low: 
+		
+# where y is categorical value: 
+
+			# we need to predict ethier that category or probability of happening that category???
+
+# predict probability of desease:  total prob: 1
+
+		# fever: 20%
+		# cold: 10% 
+		# cancer: 70% 
+
+# one email was forwarded to you: 
+
+		# google gmail: 
+			# assign a prb: 
+				# spam: 51% --- send this email into spam folder
+				# or not: 49% -- 
+
+
+		# customer behaviour prediction: 
+
+			# one product: 
+				# flipkart sell you: 
+					# 10,12,15
+					# 10% -- 40% 
+					# 12% -- 60% 
+					# 15% -- 80% 
+
+			# if flip: 
+
+					# if prob: of buying a product: will increase to more than 50%: then 
+					# choose that offer: 
+				
+					# loss also: 
+					# sell you the product: 
+
+					# 12% -- 60%--- offer ....
+					# 15% -- 80% 
+
+
+
+
+
+	# classification approach:  (56 models)
+
+	
+	# logistic regression: predict the probability of a categorical output
+									# win: 
+									# loss: 
+
+	# knn (k nearest neighboars) classication: 
+							# find the best possible category based on mathematical function
+
+# problem state: 
+
+		# one marketing firm: 
+
+				# is running some ads on some social media platform: 
+				# they want to understand based on some customer data: 
+						# which customer will purchage through ads or not?
+
+				# they have information about: 
+						# gender, age, estimated salary
+						# purchage or not (1, 0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Unsupervised ml models:
+
+	# 
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+		
