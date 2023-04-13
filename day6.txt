@@ -1,0 +1,176 @@
+
+		# decision tree: 
+
+
+		# most of the organization use very conventional but powerful models to solve
+		# their data based problems.......
+
+		# very useful: not a black box: 
+
+					# implemented decision tree, it is black box......
+					# consuming gini coefficient and Entropy and infromation gain
+
+		# as we proceed with more difficult models, we come across issues of powerful but
+		# black box environment......
+
+		# trade off: 
+				# more powerful model ............. 
+						- less easy to understand/interpret
+						- may have more predicting power but at the cost of more complex env of model
+
+
+				# less powerful model ............. 
+						- less predicting power
+						- very simplified outcomes.....
+
+		# increase the predicting power at the cost of increasing complexity....
+
+				# can take less complex model: 
+						# one cross validation: no. of rows:------ train and test on only 2 rows... highly costly but very powerful
+						# cross validation  ----------- train model more than 1 times
+
+
+		# complex models: 
+
+				# option 2: 
+						
+
+
+
+		# decision seperate idea to clasify an output with the help tree leaves ideo....
+
+		# single - single model to work on a data: 
+
+				# problem statement: 
+					# regression or classification outcome result: 
+							# choosing a model to do the same.........
+									# reg: multiple linear regression
+									# classifcation: logistics regression or knn or .........
+
+				# model making:
+						# outcomes at a single model at a point of time: 
+
+# statisticians: 
+
+# club all the models together to create a more powerful model: 
+
+				# ensemble learning: combine multiple models : super model 
+
+				# combining models: 
+
+							# 1000 row data: 
+								# x1, x2, x3, y
+
+# can used with Regression and Classification problems: 
+
+
+option 1: Bagging: put all the models in bag
+
+						--- parallel structure: 
+
+
+
+						# sample the data into different random samples: 2 categories predictions: 
+
+						model1		# 500 random sample for model 1 ----- predictions   category1: 1 perticular record
+full dataset				model2		# 500 random sample for model 2 ----- predictions	 category2: 1 perticular record
+						model3		# 500 random sample for model 3 ----- predictions   category1: 1 perticular record
+						model4		# 500 random sample for model 4 ----- predictions	 category1: 1 perticular record
+
+			
+				# which category you will assign as the final category: 
+							# majority vote: 
+									category 1 as the final prediction: 
+
+
+continous data input: price, gdp, inflation
+
+						model1		# 500 random sample for model 1 ----- predictions   price1: 1 perticular record
+full dataset				model2		# 500 random sample for model 2 ----- predictions	 price2: 1 perticular record
+						model3		# 500 random sample for model 3 ----- predictions   price3: 1 perticular record
+						model4		# 500 random sample for model 4 ----- predictions	 price4: 1 perticular record
+
+					# avg of all the predictions: (price1 + price2 + price3 + price4)/4
+
+					# 3+5+5+3/4 
+					# avg, median ...., mode 
+
+					# 20 models: 
+							# 7-8 models: predicting exact same price: 
+
+
+
+# decision tree, random forest, 
+
+# option 2: boosting
+
+	# some observations can be predicted very well by almost all the models correctly: 
+				# so why we should even use these observation to again predict by all the models?
+
+		# super model: 
+
+				# not parellel 
+				# sequential system
+
+				# raw data: ----->>>>>>>>>>>> model1 >>> results: 
+
+				$ classifications: 
+
+					# 500 observations to predict: 
+
+				# Step1: 
+
+				model1	# 400 observations correctly and 100 observations incorrect predictions
+
+				# second process: 
+
+				model2: # raw data: 100 observations 
+						# 70 observations correctly and 30 observations incorrectly: 
+
+				# third process: 
+
+				model3: 30 observations: 
+						# 
+				raw data: 
+					model1 -->>> model2 --->> model3
+
+
+				# individual models are weak models: 
+
+				# combine multiple weak models into a single strong classifier : Boosting techinique 
+
+				# XGBoost, LightGBM, GBM, CatBoost
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
