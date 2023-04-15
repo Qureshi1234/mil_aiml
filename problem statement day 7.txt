@@ -1,0 +1,251 @@
+
+
+	# last two sessions for your ml basics: 
+
+	# Artificial Intelligence: 
+
+			# treat your ml basics understanding as given. 
+
+	# Supervised learning models: when y is known
+				# Regression bases approach
+				# Classification based approach
+
+				# Decision tree and Random forest based models: 
+							# basic regressiona and classification models as input as weak models: 
+							# strong/super model 
+				# bagging and boosting: 
+
+				# sklearn library: 
+
+	# Y is unknown/hidden in data: 
+
+	# Unsupervised Machine Learning: 
+				# Kmeans clustering is an unsupervised machine learning model: 
+
+	# 3 more models (Clustering ML): 
+
+			# Group of items/objects similar in nature or shows similar patterns.
+					# cluster will be group defined: 
+
+
+
+					# Banking: 
+							# classify customers as 3 risk types: 
+									# low risk profile 
+									# medium risk profile
+									# high risk profile
+
+							# stocks in stock market: 
+									# colors to stock types:
+
+											# Low risk: blue color icon
+											# Medium risk: yellow color
+											# brown color: high risk 
+
+							# SEBI: Security exchange board of India: 
+	# Classification: 
+					# x1,x2,x3,x4 ============ y (categorical: caterogies are given in example data: 
+														# categories were known to us: 
+														# flower: which category of flower it is?
+														# 3 categories: 
+														# Versicolor, Setosa, Virginica
+
+	# sometimes, we are not sure or y column is hidden or not known to us: 
+					# 
+
+	# amazon: selling some product (digital product)
+
+	# amazon is trying to identify some mapping or products which are sold together?
+
+	# mobile --- cases/temper/earphone/headset/extended warranty
+
+	# netflix: recommend web series or movies to its users as per watch history
+
+	# for this type of problem: 
+				# y value is not available in your dataset: 
+				# task to machine learning to find y value as groups or categories or clusters: 
+
+	# Clustering: 
+				# once you are able to identify the y value as classes or groups in your historical data: 
+	
+
+	# y as categories and then you can use it to perform classification problems: 
+
+	# with the help of Clustering: 
+				# we were able to identify: which customer belong to which risk profile: 
+				# y value is available with the help of clustering: 
+
+				# some more predictions: 
+
+	# i want to find out quality cluster of apple sold and price charged: 
+
+		# how many types of qualities are available in market: 
+		# how many price ranges are for those qualities: 
+
+			# x and y axis: 
+
+				# x axis : quantity sold
+				# y axis: price of apple
+
+
+	# Clustering types: 
+
+		1. Partitioning Clustering: models: Kmeans clustering
+
+				# divide the data into non hierarchical groups: 
+				
+				# in first step: divide dataset into a set of random k groups. 
+
+						@ initialise k value as 2: 
+
+
+				# (real k is hidden in starting, later we find optimum k value)
+
+				# to find out optimum k value: 
+
+					method1: we can do visual inspection: and we find out optimum k value:
+
+				     method2: we apply machine learning clustering model: will give us optimum k value for the dataset:  	
+
+
+				# we find out optimum number of k clusters based on distance matrix/formula: 
+
+
+				# 8th standard or 9th standard: 
+
+					# point a to point b: 
+							# distance method: 
+
+					# google map: use the same formual to calculate distance
+					# uber: to calculate expected time based on distance
+								$ manhattan distance formula
+
+					# airplane: 
+								# euclidean formula (k means)
+								
+
+		2. Density based clustering: 
+		3. Distribution model based clustering: 
+
+					# create data level distribution or some initial patterns to find out groups/clusters
+					# normal distribution based gaussian distribution (GMM)
+
+		4. ALTERNATIVE TO Partitioning clustering: 
+					# Hierarchical Clustering: 
+
+								# end nodes, clusters : Dendrogram based model clustering
+
+		5. Fuzzy Clustering: kmeans fuzzy algorithm
+
+
+
+
+# we will be applying partitioning based clustering: 
+
+			# with the help of Kmeans Clustering approach
+
+	# some basic data: about customers of mall: 
+			
+			# customer types or customer clusters: 
+
+			# Genre (Sex) 
+			# Age
+			# Annual income
+			# Spending score
+
+		@ we want to create optimum groups of customers, 
+
+		# based on which, if i will get a new customer information on genre, age, annual income, spending score: 
+
+		# assign this customer to a group/cluster: 
+
+	# customer group is unknown: y is unknown/hidden in data
+
+	# Y is unknown: this type of problem is called: Unsupervised Machine Learning: 
+
+
+	# we want to find out customer groups in dataset (y)
+
+	# Genre (Sex) 
+			# Age
+			# Annual income
+			# Spending score
+
+	# follow mathematics to perform kmeans: 
+
+			# we are going to check what value of K (1 to 20), can be optimum based on some iteration done with the help of mathematical formula:
+
+	# i want to define a method, which will iteratively check, what can be optimum k(cluster) value in our dataset
+
+	# i will be using two columsn to find a cluster: 
+
+		# annual income and spending score to find customer cluster: 
+
+		# 
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
